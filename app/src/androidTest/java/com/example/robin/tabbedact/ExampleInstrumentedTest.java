@@ -2,8 +2,10 @@ package com.example.robin.tabbedact;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
+import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
+import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -22,5 +24,10 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.robin.tabbedact", appContext.getPackageName());
+    }
+
+    @Test
+    public void sample() throws Exception {
+
     }
 }
