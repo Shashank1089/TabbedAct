@@ -124,18 +124,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if(id == R.id.action_sign)
         {
-            /*android.app.AlertDialog.Builder sign = new android.app.AlertDialog.Builder(this);
-            LayoutInflater inflater = getLayoutInflater();
-            final View alertLayout = inflater.inflate(R.layout.layout_alert_sign, null);
-            customCanvas = (CanvasView) findViewById(R.id.signature_canvas);
 
-            sign.setTitle("Signature");
-            sign.setView(alertLayout);
-            sign.setCancelable(false);
-
-            android.app.AlertDialog dialog = sign.create();
-            dialog.show();
-            */
             Intent inte = new Intent(this,SignatureActivity.class);
             startActivity(inte);
         }
